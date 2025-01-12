@@ -4,17 +4,21 @@ body {
 }
 
 .home-page{
+  padding: 130px;
   background-color: #1A1A2E ;
   font-family: 'Jonova';
+  display: flex;
+  flex-direction: row;
 }
 
 .home-page h1{
   color: #E94560;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .home-page,.name-1, .name-para{
   color:  #C9D1D9 ;
+
 }
 
 .button{
@@ -31,4 +35,18 @@ body {
 
 .button:hover{
   background-color:  #E94560;
+}
+
+.photo{
+  margin: 80px;
+  margin-left: 310px;
+  padding: 100px;
+
+}
+
+.photo, .circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
